@@ -1,0 +1,20 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type MessagePayload {
+  id: String!
+  message: String!
+}
+
+type Query {
+  hello: String!
+}
+
+type Mutation {
+  sendMessage(message: String!, id: String!): String!
+}
+
+type Subscription {
+  receiveMessage(id: String!): MessagePayload!
+}
