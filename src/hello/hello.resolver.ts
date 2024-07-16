@@ -31,7 +31,7 @@ export class HelloResolver {
 
   @Mutation(() => String)
   async sendMessage(@Args('message') message: string, @Args('id') id: string) {
-    await pubsub.publish(topic, { id, message });
+    await pubsub.publish(topic, { receiveMessage: { id, message } });
     return message;
   }
 

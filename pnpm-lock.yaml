@@ -79,6 +79,9 @@ devDependencies:
   jest:
     specifier: ^29.5.0
     version: 29.7.0(@types/node@20.14.10)(ts-node@10.9.2)
+  nest:
+    specifier: ^0.1.6
+    version: 0.1.6
   prettier:
     specifier: ^3.0.0
     version: 3.3.3
@@ -4416,6 +4419,10 @@ packages:
 
   /neo-async@2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
+    dev: true
+
+  /nest@0.1.6:
+    resolution: {integrity: sha512-21378J/6pHB9EZMId5yz9DaxVj778pCHhzfXhRLLrLWZydpLgbsyxL5B5QyTSWJBk5L8XbiGgMvNZMb/qBySYg==}
     dev: true
 
   /node-abort-controller@3.1.1:
